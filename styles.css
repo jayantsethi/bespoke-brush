@@ -168,7 +168,7 @@ strong {
 .hero {
     padding: 100px 20px 80px;
     text-align: center;
-    background: var(--background-light);
+    background: var(--background-white);
 }
 
 .hero-subtitle {
@@ -217,7 +217,7 @@ strong {
 /* Artists Section */
 .artists {
     padding: 80px 20px;
-    background: var(--background-white);
+    background: var(--background-light);
 }
 
 .artist-profile {
@@ -264,20 +264,19 @@ strong {
 .gallery-item {
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: var(--shadow);
     transition: all 0.3s ease;
-    background: var(--background-white);
+    background: var(--background-light);
 }
 
 .gallery-item:hover {
     transform: translateY(-10px);
-    box-shadow: var(--shadow-hover);
+    cursor: pointer;
 }
 
 .gallery-item img {
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
 }
 
